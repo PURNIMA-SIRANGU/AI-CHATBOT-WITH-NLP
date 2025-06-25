@@ -54,3 +54,7 @@ Educational Tutors for specific subjects
 First-Level IT Helpdesk Assistants
 Onboarding and training tools
 Website Navigational Guides
+
+OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/8640556a-03c0-44a6-838e-f56158cd36a8)
