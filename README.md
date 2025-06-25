@@ -11,12 +11,15 @@
 *MENTOR NAME*: NEELA SANTOSH
 
 GITA: A Retrieval-Based Technical Chatbot
+
 GITA (General-purpose Intelligent Technical Assistant) is a sophisticated yet easy-to-understand retrieval-based chatbot built entirely in Python. Developed within the Visual Studio Code environment, this project demonstrates core Natural Language Processing (NLP) principles to create a conversational agent that provides accurate, pre-defined answers on technical topics, making it an ideal digital assistant for developers and students.
+
 
 
 Project Overview
 
 Unlike generative models (like GPT) that create new text, GITA is a retrieval-based bot. Its intelligence lies in its ability to accurately "retrieve" the best-fit response from a structured intents.json knowledge base. The project operates in two main phases: a training phase where it learns from predefined query patterns, and an inference phase where it analyzes user messages to find and deliver the most appropriate response. This model is highly effective for applications where response accuracy and control are critical, such as FAQ bots and customer service agents.
+
 
 
 Key Features
@@ -29,6 +32,7 @@ Modular and Scalable: The knowledge base is stored in a simple intents.json file
 Efficient and Lightweight: The entire trained model is saved into a single chatbot_model.pkl file for fast loading and execution.
 
 
+
 The Technical Pipeline
 
 The project is split into two scripts that handle the training and chatting logic.
@@ -39,6 +43,7 @@ Language: Python 3
 Core Libraries: Scikit-learn (TF-IDF, Cosine Similarity), NLTK (Tokenization, Lemmatization), NumPy.
 Data Handling: JSON (for intents), Pickle (for model serialization).
 Development Environment: Visual Studio Code
+
 
 
 Potential Applications
