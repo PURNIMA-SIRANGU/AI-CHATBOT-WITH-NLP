@@ -1,0 +1,78 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you", "What's up", "Good morning", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "What can I do for you?", "Greetings!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "cya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Come back soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Thank you so much", "Appreciate it"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome!", "Glad I could be of assistance."]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name", 
+        "what should I call you", 
+        "who are you", 
+        "your name?",
+        "tell me your name",
+        "who am I speaking to",
+        "can you tell me your name",
+        "introduce yourself"
+      ],
+      "responses": ["You can call me GITA.", "I'm GITA!", "I'm GITA, a retrieval-based bot."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["what are your hours", "when are you open", "what is your schedule", "working hours"],
+      "responses": ["We are open 24/7!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["can you help me", "I need help", "what can you do", "help"],
+      "responses": ["I can answer questions about my name and our hours. I can also say hello and goodbye!", "I'm here to help with basic queries. Ask me about my name or our hours of operation."]
+    },
+    {
+      "tag": "python_info",
+      "patterns": ["what is python", "tell me about python", "python details", "python inventor", "python applications", "python features"],
+      "responses": ["Python is a high-level, interpreted programming language created by Guido van Rossum. \nKey Features: Easy to read, dynamically typed, and has a massive standard library. \nCurrent Stable Version: Around 3.12 (versions change, please check official sources for the latest). \nApplications: Web development (Django, Flask), AI/ML, data science, automation, and more."]
+    },
+    {
+      "tag": "java_info",
+      "patterns": ["what is java", "tell me about java", "java creator", "java uses", "java features"],
+      "responses": ["Java is a class-based, object-oriented programming language developed by James Gosling at Sun Microsystems. \nKey Features: Platform-independent (WORA - Write Once, Run Anywhere), robust, secure, and strongly typed. \nCurrent LTS Version: Java 21. \nApplications: Enterprise-level applications, Android app development, web backends, and big data."]
+    },
+    {
+      "tag": "javascript_info",
+      "patterns": ["what is javascript", "tell me about js", "javascript creator", "javascript uses", "js info"],
+      "responses": ["JavaScript (JS) is a high-level programming language that is one of the core technologies of the World Wide Web, created by Brendan Eich. \nKey Features: The language of web browsers for interactivity, multi-paradigm, and has a vast ecosystem (e.g., Node.js for backend). \nCurrent Standard: ECMAScript 2023 (ES14). \nApplications: Front-end web development, server-side development (Node.js), mobile apps (React Native), and game development."]
+    },
+    {
+      "tag": "cpp_info",
+      "patterns": ["what is c++", "tell me about c++", "c plus plus", "c++ creator", "c++ uses"],
+      "responses": ["C++ is a high-performance, general-purpose programming language created by Bjarne Stroustrup as an extension of the C language. \nKey Features: High performance, direct memory control, object-oriented, and system-level programming capabilities. \nCurrent Standard: C++23. \nApplications: Game engines (like Unreal Engine), operating systems, high-frequency trading, and performance-critical applications."]
+    },
+    {
+      "tag": "html_info",
+      "patterns": ["what is html", "tell me about html", "html details"],
+      "responses": ["HTML stands for HyperText Markup Language. It's the standard markup language for creating web pages, invented by Tim Berners-Lee. \nPurpose: It describes the structure of a web page using elements like headings, paragraphs, images, and links. It is not a programming language. \nCurrent Version: HTML5."]
+    },
+    {
+      "tag": "css_info",
+      "patterns": ["what is css", "tell me about css", "css details"],
+      "responses": ["CSS stands for Cascading Style Sheets. It's a style sheet language used for describing the presentation of a document written in a markup language like HTML, created by Håkon Wium Lie. \nPurpose: It controls the colors, fonts, layout, and overall visual appearance of web pages. \nCurrent Version: CSS3, which is modular and continuously evolving."]
+    },
+    {
+      "tag": "react_info",
+      "patterns": ["what is react", "tell me about react", "reactjs", "react.js", "what is reactjs"],
+      "responses": ["React (also known as React.js) is a free and open-source front-end JavaScript library for building user interfaces, created by Jordan Walke at Facebook. \nKey Features: Component-based architecture, uses a Virtual DOM for performance, and promotes declarative UI development. \nCurrent Version: Around 18.x (React evolves quickly, so always check the official docs). \nApplications: Building modern single-page applications (SPAs) and complex interactive web UIs."]
+    }
+  ]
+}
