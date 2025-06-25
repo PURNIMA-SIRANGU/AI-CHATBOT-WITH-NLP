@@ -12,7 +12,7 @@
 
 GITA: A Retrieval-Based Technical Chatbot
 
-GITA (General-purpose Intelligent Technical Assistant) is a sophisticated yet easy-to-understand retrieval-based chatbot built entirely in Python. Developed within the Visual Studio Code environment, this project demonstrates core Natural Language Processing (NLP) principles to create a conversational agent that provides accurate, pre-defined answers on technical topics, making it an ideal digital assistant for developers and students.
+GITA (General-programming Intelligent Technical Assistant) is a sophisticated yet easy-to-understand retrieval-based chatbot built entirely in Python. Developed within the Visual Studio Code environment, this project demonstrates core Natural Language Processing (NLP) principles to create a conversational agent that provides accurate, pre-defined answers on technical topics, making it an ideal digital assistant for developers and students.
 
 
 
