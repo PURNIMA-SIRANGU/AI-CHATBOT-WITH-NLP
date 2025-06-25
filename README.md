@@ -15,10 +15,12 @@ GITA (General-purpose Intelligent Technical Assistant) is a sophisticated yet ea
 
 
 Project Overview
+
 Unlike generative models (like GPT) that create new text, GITA is a retrieval-based bot. Its intelligence lies in its ability to accurately "retrieve" the best-fit response from a structured intents.json knowledge base. The project operates in two main phases: a training phase where it learns from predefined query patterns, and an inference phase where it analyzes user messages to find and deliver the most appropriate response. This model is highly effective for applications where response accuracy and control are critical, such as FAQ bots and customer service agents.
 
 
 Key Features
+
 Intelligent Intent Recognition: Utilizes TF-IDF and Cosine Similarity to accurately map user input to the correct intent.
 Natural Language Processing: Employs the NLTK library for essential NLP tasks like tokenization and lemmatization to understand user queries.
 Advanced Vectorization: Uses n-grams to consider both single words and two-word phrases, significantly improving its contextual understanding.
@@ -28,6 +30,7 @@ Efficient and Lightweight: The entire trained model is saved into a single chatb
 
 
 The Technical Pipeline
+
 The project is split into two scripts that handle the training and chatting logic.
 Training (train.py): This script builds the bot's "brain." It reads all patterns from intents.json, preprocesses the text (tokenization and lemmatization), and then converts the patterns into a numerical matrix using a TF-IDF vectorizer. The final vectorizer, matrix, and corresponding tags are saved as chatbot_model.pkl.
 Inference (chat.py): In a live chat, user input undergoes the same preprocessing. The loaded vectorizer transforms the input into a vector, and cosine_similarity calculates how closely it matches each trained pattern. If the best match exceeds the confidence threshold, the bot selects a corresponding response; otherwise, it provides a polite message stating it doesn't understand.
@@ -39,6 +42,7 @@ Development Environment: Visual Studio Code
 
 
 Potential Applications
+
 The architecture is highly versatile and can be adapted for numerous real-world applications, including:
 Automated Customer Support & FAQ Bots
 Educational Tutors for specific subjects
